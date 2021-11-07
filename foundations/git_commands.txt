@@ -1,0 +1,33 @@
+##############################################
+# display remote repository url
+git remote -v
+
+# clones a repository
+git clone http://link-to-repository
+
+# shows the modified files
+git status
+
+# adds the modified files to the stage area
+git add file-name
+
+# saves the file into the local database
+git commit -m "commit message"
+
+# shows the log of your previous commits
+git log
+
+# sets git global username
+git config --global user.name "username"
+
+# sets git global email
+git config --global user.email "email@hotmail.com"
+
+# changes the global default branch
+git config --global init.defaultBranch branch-name
+
+# adds a tab on visual studio code so you can wait a commit message
+config --global core.editor "code --wait"
+
+# changing the url origin of the repository 
+git remote set-url origin "path-to-ssh"
